@@ -1,7 +1,9 @@
 
 def factorial(n):
-    return n * factorial(n - 1)
+    f = 1
+    for i in range(1, n+1):
+        f = f * i
+    return f
 
 
-do = factorial(10)
-print(do)
+print(factorial(5))
