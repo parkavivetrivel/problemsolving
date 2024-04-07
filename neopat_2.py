@@ -17,6 +17,3 @@ for i in range(0,len(a)):
         break
     else:
         d.clear()
-
-
-
